@@ -19,6 +19,12 @@
   gap: 25px;
 }
 
+@media (max-width: 900px) {
+  .searchContainer {
+    width: 100%;
+  }
+}
+
 .searchContainer h1 {
   font-size: 46px;
   text-align: center;
@@ -113,6 +119,12 @@
   justify-content: space-between;
   gap: 10px;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .infoContainer label {
+    flex-direction: column;
+  }
 }
 
 .infoContainer input {
